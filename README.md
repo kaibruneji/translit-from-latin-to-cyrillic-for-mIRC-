@@ -1,7 +1,7 @@
 # translit-from-latin-to-cyrillic-for-mIRC-
 Script for translit from latin to cyrillic for mIRC
 
-To run this script, just copy the text from the file (not this one, but above).
+To run this script, just copy the text from the file (not this one, but translit_mirc_script.txt above).
 While in mIRC, press alt+R -> In the opened window, select "Aliases" at the top left
 And there, at the very bottom, paste the copied from the file, then save (you can press ctrl + S)
 And click the "Ok" button at the bottom left to close this window with scripts.
@@ -14,7 +14,7 @@ To work, now we just write in the world like this, through / t , an example:
 
 Скрипт для перевода транслита: с латиницы на кирилицу для mIRC.
 
-Для запуска этого скрипта, просто скопируйте текст из файла (не этого, а выше). 
+Для запуска этого скрипта, просто скопируйте текст из файла (не этого, а translit_mirc_script.txt выше). 
 Находясь в mIRC нажмите alt+R -> В открывшим=ся окне, вверху слева выбирите "Aliases"
 И там в самый низ вставьте скопированое из файла, далее сохраните (можно нажать ctrl+S) 
 И нажмите кнопку "Ok" внизу слева чтобы закрыть это окно со скриптами.
