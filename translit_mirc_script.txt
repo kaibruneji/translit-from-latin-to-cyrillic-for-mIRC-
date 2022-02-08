@@ -1,6 +1,6 @@
 /t {
   if ($1 == $null) { echo Текст не введен! Синтаксис: /t primer texta na translite | halt }
   %string = $1-
-  %string = $replace(%string, yu,ю, ya,я, yo,ё, jo,ё, zh,ж, shh,щ, sh,ш, ch,ч, tvz,ъ, mjz,ь, je,э, ja,ю, ja,я) 
+  %string = $replace(%string, yu,ю, ya,я, yo,ё, jo,ё, zh,ж, shh,щ, sh,ш, ch,ч, tvz,ъ, mjz,ь, je,э, ja,я) 
   %string = $replace(%string, a,а, b,б, v,в, g,г, d,д, e,е, z,з, i,и, j,й, k,к, l,л, m,м, n,н, o,о, p,п, r,р, s,с, t,т, u,у, f,ф, h,х, x,х, c,ц, w,щ, #,ъ, y,ы, ',ь, q,я)  
   say %string | unset %string
